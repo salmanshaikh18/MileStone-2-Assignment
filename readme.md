@@ -16,6 +16,8 @@ Description: A Blog application called "PWSkills Blog" using HTML, CSS, and Java
 
 -> Upon submitting the add blog form, the new blog post should be added to the list of existing blogs on the home page, and the data should be stored in the LocalStorage.
 
+<img src="./assets/Project_1/1_HomePage.PNG" alt="HomePage"/>
+
 [Link to Project 1 Directory]
 
 ## Project 2: Project Name
