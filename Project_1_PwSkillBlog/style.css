@@ -88,3 +88,16 @@ header {
     border: none;
     outline: none;
 }
+
+#addIcon {
+    /* margin-left: 100px; */
+    position: fixed;
+    right: 0;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+#addBlog {
+    display: none;
+    height: 50vh;
+}
