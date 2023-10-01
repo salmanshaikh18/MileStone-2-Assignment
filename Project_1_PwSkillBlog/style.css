@@ -163,3 +163,31 @@ header {
 #addBlogBtn:hover {
     text-decoration: underline;
 }
+
+/* blog page styling */
+
+.blogPage {
+    height: 80vh;
+    width: 90vw;
+    /* border: 3px solid grey; */
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 5px grey;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.top {
+    background-color: blueviolet;
+    height: 50%;
+    color: black;
+}
+
+.bottom {
+    height: 50%;
+    color: black;
+}
