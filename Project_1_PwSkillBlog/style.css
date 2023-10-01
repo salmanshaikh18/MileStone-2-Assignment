@@ -64,6 +64,9 @@ header {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-color: #fff;
+    color: black;
+    box-shadow: 2px 2px 2px grey, -2px -2px 2px grey;
 }
 
 #blog h1 {
@@ -98,6 +101,58 @@ header {
 }
 
 #addBlog {
-    display: none;
     height: 50vh;
+    position: absolute;
+    width: 80vw;
+    height: 80vh;
+    border-radius: 20px;
+    background-color: #dce4f1;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    display: none;
+}
+
+#addBlog input {
+    font-size: 16px;
+    padding: 10px ;
+    margin: 0 20px;
+    border: none;
+    outline: none;
+}
+
+#addBlog textarea {
+    height: 40%;
+    margin: 0 20px;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    padding: 10px;
+}
+
+#closeBlog {
+    position: relative;
+    display: flex;
+    justify-content: end;
+    color: blueviolet;
+    cursor: pointer;
+    padding-top: 10px;
+    padding-right: 25px;
+    margin-bottom: -10px;
+}
+
+#addBlogBtn {
+    border-radius: 10px;
+    padding: 10px;
+    margin: 0 20px;
+    background-color: blueviolet;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+}
+
+#addBlogBtn:hover {
+    text-decoration: underline;
 }

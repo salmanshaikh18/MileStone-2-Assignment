@@ -12,28 +12,33 @@
     
     <header>
         <nav>
-            <a href="./index.html">Home Page</a>
-            <a href="./blogPage.html">Blog Page</a>
+            <h1>PwSkill Blog</h1>
         </nav>
     </header>
 
     <i id="addIcon" class="fa fa-plus-square-o" style="font-size:36px"></i>
 
-    <div id="addBlog">
-        <i class="fa fa-close" style="font-size:20px"></i>
-    </div>
-
     <div id="container">
-        
         <div id="blogs">
             <div id="blog">
-                <img src="../assets/Project_1/blog.PNG" alt="blogImg">
+                <img src="./assets/blog.PNG" alt="blogImg">
                 <h1>Blog Title: Demo Article</h1>
                 <p>Blog Description: Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt, quam.</p>
                 <button>Read</button>
             </div>
             <div id="blog"></div>
             <div id="blog"></div>
+        </div>
+        <div id="addBlog">
+            <i id="closeBlog" class="fa fa-close" style="font-size:20px"></i>
+            <div addBlogForm>
+
+            </div>
+            <input type="text" placeholder="Enter Blog Post URL: " />
+            <input type="text" placeholder="Enter Blog Title: " />
+            <input type="text" placeholder="Enter Blog Description: " />
+            <textarea name="" placeholder="Write..." id="" cols="30" rows="10"></textarea>
+            <button id="addBlogBtn">Add Blog</button>
         </div>
     </div>
 
