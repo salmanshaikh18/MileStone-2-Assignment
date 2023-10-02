@@ -17,7 +17,7 @@ Description: A Blog application called "PWSkills Blog" using HTML, CSS, and Java
 -> Upon submitting the add blog form, the new blog post should be added to the list of existing blogs on the home page, and the data should be stored in the LocalStorage.
 
 ## 1.Home Page 👇
-<img src="https://github.com/salmanshaikh18/MileStone-2-Assignment/blob/main/Project_1/assets/1_HomePage.PNG" alt="HomePage"/>
+<img src="https://github.com/salmanshaikh18/MileStone-2-Assignment/blob/main/Project_1_PwSkillBlog/assets/1_HomePage.PNG" alt="HomePage"/>
 
 ## 2. Add Blog Model 👇
 <img src="https://github.com/salmanshaikh18/MileStone-2-Assignment/blob/main/assets/Project_1/2_AddABlogModel.PNG" alt="AddBlogModel" />
