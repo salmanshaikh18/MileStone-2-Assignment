@@ -20,11 +20,11 @@ Description: A Blog application called "PWSkills Blog" using HTML, CSS, and Java
 <img src="https://github.com/salmanshaikh18/MileStone-2-Assignment/blob/main/Project_1_PwSkillBlog/assets/1_HomePage.PNG" alt="HomePage"/>
 
 ## 2. Add Blog Model 👇
-<img src="https://github.com/salmanshaikh18/MileStone-2-Assignment/blob/main/assets/Project_1/2_AddABlogModel.PNG" alt="AddBlogModel" />
+<img src="https://github.com/salmanshaikh18/MileStone-2-Assignment/blob/main/Project_1_PwSkillBlog/assets/2_AddABlogModel.PNG" alt="AddBlogModel" />
 
 
 ## 3. Read Blog Page 👇
-<img src="https://github.com/salmanshaikh18/MileStone-2-Assignment/blob/main/assets/Project_1/3_ReadBlogPage.PNG" alt="ReadBlogPage" />
+<img src="https://github.com/salmanshaikh18/MileStone-2-Assignment/blob/main/Project_1_PwSkillBlog/assets/3_ReadBlogPage.PNG" alt="ReadBlogPage" />
 [Link to Project 1 Directory]
 
 ## Project 2: Project Name
