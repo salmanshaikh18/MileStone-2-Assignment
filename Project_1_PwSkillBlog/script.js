@@ -10,3 +10,16 @@ addIcon.addEventListener('click', () => {
 closeBlog.addEventListener('click', () => {
     addBlog.style.display = 'none'
 })
+
+// read blog
+
+const readBlogBtn = document.getElementById('readBlogBtn')
+const imgSrc = document.getElementById('blogImg')
+const blogTitle = document.getElementById('blogTitle')
+const blogDescription = document.getElementById('blogDescription')
+
+readBlogBtn.addEventListener('click', () => {
+    const title = document.getElementById('title')
+    title.innerHTML = 'salman'
+    document.body.style.background = 'red'
+})
