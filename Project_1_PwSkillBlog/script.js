@@ -20,11 +20,19 @@ document.addEventListener("DOMContentLoaded", function () {
   const blogDescription = document.getElementById("blogDescription");
   const title = document.getElementById("title");
   console.log(title)
+  const homePage = document.getElementById('homePage')
+  const blogPage = document.getElementById('blog-page')
 
   readBlogBtn.addEventListener("click", () => {
+    homePage.style.display = 'none'
+    blogPage.style.display = 'block'
+    title.innerText = blogTitle.innerText
     
-    // title.innerHTML = "salman";
-    console.log(title);
-    console.log("salman");
   });
+
+  const backArrow = document.getElementById('backArrow')
+  backArrow.addEventListener('click', () => {
+    homePage.style.display = 'block'
+    blogPage.style.display = 'none'
+  })
 });
