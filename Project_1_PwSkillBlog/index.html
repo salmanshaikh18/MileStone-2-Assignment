@@ -1,74 +1,107 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./style.css" />
     <!-- link for adding icons from w3schools fontawesome-->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-</head>
-<body>
-
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
     <div id="homePage">
-        <header>
-            <nav>
-                <h1>PwSkill Blog</h1>
-            </nav>
-        </header>
-    
-        <i id="addIcon" class="fa fa-plus-square-o" style="font-size:40px"></i>
-    
-        <div id="container">
-            <div id="blogs">
-                <div id="blog">
-                    <div id="imgBox"><img id="blogImg" src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1528&q=80" alt="blogImg"></div>
-                    
-                    
-                    <h1 id="blogTitle">Blog Title: Demo Article</h1>
-                    <p id="blogDescription">Blog Description: Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt, quam.</p>
-                    <button id="readBlogBtn">Read Blog</button>
-                    <button id="deleteBlog" style="background-color: rgb(233, 85, 85); color: #fff;">Delete Blog </button>
-                    <!-- <a id="readBlogBtn" href="./blogPage.html">Read</a> -->
-                </div>
-                <!-- <div id="blog"></div>
+      <header>
+        <nav>
+          <h1>PwSkill Blog</h1>
+        </nav>
+      </header>
+
+      <i id="addIcon" class="fa fa-plus-square-o" style="font-size: 40px"></i>
+
+      <div id="container">
+        <div id="blogs">
+          <div id="blog">
+            <div id="imgBox">
+              <img
+                id="blogImg"
+                src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1528&q=80"
+                alt="blogImg"
+              />
+            </div>
+
+            <h1 id="blogTitle">Blog Title: Demo Article</h1>
+            <p id="blogDescription">
+              Blog Description: Lorem ipsum dolor sit amet consectetur
+              adipisicing elit. Incidunt, quam.
+            </p>
+            <button id="readBlogBtn">Read Blog</button>
+            <!-- <button
+              id="deleteBlog"
+              style="background-color: rgb(233, 85, 85); color: #fff"
+            >
+              Delete Blog
+            </button> -->
+            <!-- <a id="readBlogBtn" href="./blogPage.html">Read</a> -->
+          </div>
+          <!-- <div id="blog"></div>
                 <div id="blog"></div> -->
-            </div>
-            <div id="addBlog">
-                <i id="closeBlog" class="fa fa-close" style="font-size:30px"></i>
-                <input id="userUrl" type="text" placeholder="Enter Blog Post URL: " />
-                <input id="userTitle" type="text" placeholder="Enter Blog Title: " />
-                <input id="userDescription" type="text" placeholder="Enter Blog Description: " />
-                <textarea id="userTextarea" name="" placeholder="Write..." id="" cols="30" rows="10"></textarea>
-                <button id="addBlogBtn">Add Blog</button>
-            </div>
         </div>
+        <div id="addBlog">
+          <i id="closeBlog" class="fa fa-close" style="font-size: 30px"></i>
+          <input id="userUrl" type="text" placeholder="Enter Blog Post URL: " />
+          <input id="userTitle" type="text" placeholder="Enter Blog Title: " />
+          <input
+            id="userDescription"
+            type="text"
+            placeholder="Enter Blog Description: "
+          />
+          <textarea
+            id="userTextarea"
+            name=""
+            placeholder="Write..."
+            id=""
+            cols="30"
+            rows="10"
+          ></textarea>
+          <button id="addBlogBtn">Add Blog</button>
+        </div>
+      </div>
     </div>
-    
-   
 
     <div id="blog-page">
-        <div class="topper">
-            <h1>PWSkills Blog</h1>
-        <i id="backArrow" class="fa fa-arrow-left" style="font-size:36px"></i>
-        </div>
-        
-        <div class="container">
-            <div class="blogPage">
-                <div class="top">
-                    <div class="topContent">
-                        <h1 id="title">Lorem ipsum dolor sit amet.</h1>
-                    <h2 id="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, maxime.</h2>
-                    </div>
-                    <img id="imgSrc" src="./assets/blog.PNG" alt="">
-                </div>
-                <div class="bottom">
-                    <p id="textarea">Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio officia nihil voluptates sunt facilis, cupiditate maiores. Voluptate, at, maxime sit excepturi nesciunt ipsa consectetur perspiciatis nihil nisi non, eaque inventore facere. Autem soluta sint nemo, laborum aspernatur doloribus at exercitationem?</p>
-                </div>
+      <div class="topper">
+        <h1>PWSkills Blog</h1>
+        <i id="backArrow" class="fa fa-arrow-left" style="font-size: 36px"></i>
+      </div>
+
+      <div class="container">
+        <div class="blogPage">
+          <div class="top">
+            <div class="topContent">
+              <h1 id="title">Lorem ipsum dolor sit amet.</h1>
+              <h2 id="description">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero,
+                maxime.
+              </h2>
             </div>
+            <img id="imgSrc" src="./assets/blog.PNG" alt="" />
+          </div>
+          <div class="bottom">
+            <p id="textarea">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio
+              officia nihil voluptates sunt facilis, cupiditate maiores.
+              Voluptate, at, maxime sit excepturi nesciunt ipsa consectetur
+              perspiciatis nihil nisi non, eaque inventore facere. Autem soluta
+              sint nemo, laborum aspernatur doloribus at exercitationem?
+            </p>
+          </div>
         </div>
+      </div>
     </div>
 
     <script src="./script.js"></script>
-</body>
+  </body>
 </html>
