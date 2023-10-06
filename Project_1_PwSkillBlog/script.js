@@ -36,3 +36,9 @@ document.addEventListener("DOMContentLoaded", function () {
     blogPage.style.display = 'none'
   })
 });
+
+const addBlogBtn = document.getElementById('addBlogBtn')
+
+addBlogBtn.addEventListener('click', () => {
+  
+})
