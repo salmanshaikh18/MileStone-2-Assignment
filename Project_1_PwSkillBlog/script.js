@@ -50,10 +50,13 @@ addBlogBtn.addEventListener("click", () => {
   const blog = document.createElement("div");
   blog.setAttribute("id", "blog");
   blogs.appendChild(blog);
+  const imgBox = document.createElement("div")
+  imgBox.setAttribute('id', 'imgBox');
+  blog.appendChild(imgBox)
   const img = document.createElement("img");
   img.src = userUrl.value;
   img.setAttribute("id", "blogImg");
-  blog.appendChild(img);
+  imgBox.appendChild(img);
   const h1 = document.createElement("h1");
   h1.innerHTML = userTitle.value;
   h1.setAttribute("id", "blogTitle");
