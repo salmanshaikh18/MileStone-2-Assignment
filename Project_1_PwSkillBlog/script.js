@@ -38,7 +38,28 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 const addBlogBtn = document.getElementById('addBlogBtn')
+const blogs = document.getElementById('blogs')
 
 addBlogBtn.addEventListener('click', () => {
-  
+  const blog = document.createElement('div')
+  blog.setAttribute('id', 'blog')
+  blogs.appendChild(blog)
+  const img = document.createElement('img')
+  img.src = './assets/blog.PNG'
+  img.setAttribute('id', 'blogImg')
+  blog.appendChild(img)
+  const h1 = document.createElement('h1')
+  h1.innerHTML = 'Blog Title'
+  h1.setAttribute('id', 'blogTitle')
+  blog.appendChild(h1)
+  const p = document.createElement('p')
+  p.setAttribute('id', 'blogDescription')
+  p.innerHTML = 'Blog Description'
+  blog.appendChild(p)
+  const button = document.createElement('button')
+  button.setAttribute('id', 'readBlogBtn')
+  button.innerHTML = 'Read'
+  blog.appendChild(button)
+
+  addBlog.style.display = 'none'
 })
