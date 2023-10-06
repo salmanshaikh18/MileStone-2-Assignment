@@ -68,4 +68,8 @@ addBlogBtn.addEventListener("click", () => {
   blog.appendChild(button);
 
   addBlog.style.display = "none";
+ userUrl.value =''
+ userTitle.value =''
+ userDescription.value = ''
+
 });

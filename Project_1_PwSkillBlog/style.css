@@ -255,6 +255,14 @@ header {
     /* margin-bottom: 15px; */
 }
 
+#blogImg {
+    transition: 0.5s all ease;
+}
+
+#blogImg:hover {
+    scale: 1.1
+}
+
 @media (max-width: 450px) {
     #blog {
         width: 80%;
