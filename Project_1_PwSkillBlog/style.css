@@ -270,6 +270,11 @@ header {
     /* margin-bottom: 15px; */
 }
 
+#deleteBlog {
+    position: absolute;
+    bottom: 88px;
+}
+
 @media (max-width: 450px) {
     #blog {
         width: 80%;
