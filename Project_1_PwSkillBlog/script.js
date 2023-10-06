@@ -9,7 +9,8 @@ window.addEventListener("load", () => {
   }
 });
 
-const imgSrc = document.getElementById("blogImg");
+const imgSrc = document.getElementById("imgSrc");
+console.log(imgSrc)
 const blogTitle = document.getElementById("blogTitle");
 const blogDescription = document.getElementById("blogDescription");
 const title = document.getElementById("title");
@@ -21,6 +22,7 @@ const userDescription = document.getElementById("userDescription");
 const userTextarea = document.getElementById("userTextarea");
 const description = document.getElementById('description')
 const textarea = document.getElementById('textarea')
+const readBlogBtn = document.getElementById('readBlogBtn')
 
 addBlogBtn.addEventListener("click", () => {
   // create a blog object to store the data
@@ -107,7 +109,24 @@ const createBlogElement = (blogData) => {
     imgSrc.src = blogData.url // Update the image src
     textarea.innerHTML = blogData.textarea
   });
+
+  
 };
+
+const blogImg = document.getElementById('blogImg')
+// const blogDescription = document.getElementById('blogDescription')
+// const blogTitle = document.getElementById('blogTitle')
+
+readBlogBtn.addEventListener('click', () => {
+  homePage.style.display = "none";
+    blogPage.style.display = "block";
+    title.innerText = blogTitle.innerText // Set the title to the specific blog's title
+    description.innerText = blogDescription.innerText // Set the blog description to the specific blog's description
+    imgSrc.src = blogImg.src // Update the image src
+    // textarea.innerHTML = 
+})
+
+
 
 const addIcon = document.getElementById("addIcon");
 const addBlog = document.getElementById("addBlog");
