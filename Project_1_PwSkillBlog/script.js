@@ -35,6 +35,7 @@ addBlogBtn.addEventListener("click", () => {
 
   // Retrieve the saved blogs from Local Storage
   const savedBlogs = JSON.parse(localStorage.getItem("blogs")) || [];
+  console.log(savedBlogs)
 
   // Add the new blog to the array of saved blogs
   savedBlogs.push(blogData);
