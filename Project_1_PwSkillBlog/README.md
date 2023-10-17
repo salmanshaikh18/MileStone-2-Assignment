@@ -2,7 +2,7 @@
 
 Description: A Blog application called "PWSkills Blog" using HTML, CSS, and JavaScript. This application will allow users to add their own blogs and read any existing blog posts. To achieve this, all blog's data will be stored in the browser's LocalStorage.
 
--> The blog application should have two main pages: home page and blog page.
+-> The blog application have two main pages: home page and blog page.
 
 -> On the home page, users should be able to see a list of all existing blog posts with their titles and brief summaries.
 
