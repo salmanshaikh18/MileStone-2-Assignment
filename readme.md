@@ -14,8 +14,7 @@ Description: A Blog application called "PWSkills Blog" using HTML, CSS, and Java
 ## 3. Read Blog Page 👇
 <img src="https://github.com/salmanshaikh18/MileStone-2-Assignment/blob/main/Project_1_PwSkillBlog/assets/3_ReadBlogPage.PNG" alt="ReadBlogPage" />
 
-[Link to Project 1 Directory]
-### Link of Project 1 Directory 👉
+Link of Project 1 Directory 👉
 <a href="https://github.com/salmanshaikh18/MileStone-2-Assignment/tree/main/Project_1_PwSkillBlog">Project_1_BlogApp</a>
 
 ## Project 2: Project Name
