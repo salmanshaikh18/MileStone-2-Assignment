@@ -30,8 +30,7 @@ Description: A movie search application that allows users to search for any movi
 
 -> Link: <a href="https://www.omdbapi.com/">OMDB API</a>
 
-<img src="" />
-[Link to Project 1 Directory]
+<img src="https://github.com/salmanshaikh18/MileStone-2-Assignment/blob/main/Project_2_MovieSearchApp/assets/Screenshot%202023-10-17%20223106.png" />
 
-Project 2 Directory Link 👉 <a href="">Project 2 </a>
+Project 2 Directory Link 👉 <a href="https://github.com/salmanshaikh18/MileStone-2-Assignment/tree/main/Project_2_MovieSearchApp">Project 2 </a>
 
