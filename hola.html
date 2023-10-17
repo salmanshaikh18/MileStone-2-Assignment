@@ -1,0 +1,113 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Movie Search App</title>
+    <style>
+      /* style.css */
+      body {
+        font-family: Arial, sans-serif;
+        text-align: center;
+      }
+      .container {
+        max-width: 400px;
+        margin: 0 auto;
+      }
+      h1 {
+        font-size: 24px;
+      }
+      input {
+        width: 100%;
+        padding: 10px;
+        margin: 10px 0;
+      }
+      button {
+        background-color: #007bff;
+        color: white;
+        border: none;
+        padding: 10px 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Movie Search App</h1>
+      <input type="text" id="searchInput" placeholder="Enter a movie title" />
+      <button id="searchButton">Search</button>
+      <div id="movieDetails"></div>
+    </div>
+    <script>
+      // script.js
+      const apiKey = "d0f37330"; // Replace with your actual API
+
+      const searchInput = document.getElementById("searchInput");
+      const searchButton = document.getElementById("searchButton");
+      const movieDetails = document.getElementById("movieDetails");
+
+      searchButton.addEventListener("click", () => {
+        const searchTerm = searchInput.value;
+        if (searchTerm) {
+          fetch(`https://www.omdbapi.com/?s=${searchTerm}&apikey=${apiKey}`)
+            .then((response) => response.json())
+            .then((data) => {
+              if (data.Response === "True") {
+                const movies = data.Search;
+                if (movies && movies.length > 0) {
+                  let movieList = "<h2>Movies related to your search:</h2><ul>";
+                  for (const movie of movies) {
+                    movieList += `<li><a href="#" class="movie-link" data-imdbid="${movie.imdbID}">${movie.Title}</a></li>`;
+                  }
+                  movieList += "</ul>";
+                  movieDetails.innerHTML = movieList;
+
+                  // Add click event listeners for each movie link
+                  const movieLinks = document.querySelectorAll(".movie-link");
+                  for (const link of movieLinks) {
+                    link.addEventListener("click", (event) => {
+                      event.preventDefault();
+                      const imdbID = event.target.getAttribute("data-imdbid");
+                      fetchMovieDetails(imdbID);
+                    });
+                  }
+                } else {
+                  movieDetails.innerHTML = "No movies found for your search.";
+                }
+              } else {
+                movieDetails.innerHTML = "No movies found for your search.";
+              }
+            })
+            .catch((error) => {
+              console.error("Error:", error);
+              movieDetails.innerHTML = "An error occurred while fetching data.";
+            });
+        }
+      });
+
+      // Function to fetch and display movie details by IMDb ID
+      function fetchMovieDetails(imdbID) {
+        fetch(`https://www.omdbapi.com/?i=${imdbID}&apikey=${apiKey}`)
+          .then((response) => response.json())
+          .then((data) => {
+            if (data.Response === "True") {
+              movieDetails.innerHTML = `
+                    <h2>${data.Title}</h2>
+                    <img src="${data.Poster}" alt="${data.Title} Poster">
+                    <p>Year: ${data.Year}</p>
+                    <p>Director: ${data.Director}</p>
+                    <p>Plot: ${data.Plot}</p>
+                `;
+            } else {
+              movieDetails.innerHTML = "Movie not found.";
+            }
+          })
+          .catch((error) => {
+            console.error("Error:", error);
+            movieDetails.innerHTML = "An error occurred while fetching data.";
+          });
+      }
+    </script>
+  </body>
+</html>
