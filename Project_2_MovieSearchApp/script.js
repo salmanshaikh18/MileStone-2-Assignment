@@ -25,17 +25,17 @@ searchInput.addEventListener('keydown', (event) => {
                     movieImg.src = data.Poster
                 } else {
                     movieDetails.innerHTML = 'Movie not found.';
-                    // setTimeout(() => {
-                    //     window.location.reload()
-                    // }, 2000)
+                    setTimeout(() => {
+                        window.location.reload()
+                    }, 3000)
                 }
             })
             .catch(error => {
                 console.error('Error:', error);
                 movieDetails.innerHTML = 'An error occurred while fetching data.';
-                // setTimeout(() => {
-                //     window.location.reload()
-                // }, 2000)
+                setTimeout(() => {
+                    window.location.reload()
+                }, 3000)
             });
     }
     }
