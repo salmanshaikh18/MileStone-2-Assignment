@@ -43,7 +43,7 @@ header {
     margin-top: 20px;
 }
 
-.box {
+#box {
     height: 50vh;
     width: 25vw;
     background-color: #333;
@@ -59,7 +59,7 @@ header {
     padding: 20px;
 }
 
-.box h1 {
+#box h1 {
     margin-bottom: 50px;
 }
 
@@ -85,4 +85,18 @@ header {
     text-decoration: underline;
     opacity: 0.7;
     box-shadow: 0 0 5px #fff;
+}
+
+#todoList {
+    width: 95vw;
+    /* height: 70vh; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    /* overflow-y: scroll; */
+}
+
+.footer {
+    height: 5vh;
 }
