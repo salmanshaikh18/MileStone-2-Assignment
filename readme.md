@@ -25,7 +25,7 @@ Description: A simple Movies search web app using HTML, CSS, JavsScript only. A 
 
 <a href="https://github.com/salmanshaikh18/MileStone-2-Assignment/tree/main/Project_2_MovieSearchApp">Project 2: MovieSearch</a>
 
-# Project 3: Create a Simple Todo Web App with following features Using React
+# Project 3: A Simple Todo Web App
 
 ## HomePage 👇
 

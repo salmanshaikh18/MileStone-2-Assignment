@@ -1,0 +1,9 @@
+# Node modules
+node_modules/
+
+# Output build directories
+dist/
+build/
+
+# Environment Variables
+.env
