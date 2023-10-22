@@ -38,7 +38,7 @@ Description: A simple Movies search web app using HTML, CSS, JavsScript only. A 
 
 ## HomePage 👇
 
-<img src="" />
+<img src="https://github.com/salmanshaikh18/MileStone-2-Assignment/blob/main/Project_3_ToDoApp/assets/Capture.PNG" />
 
-[Link to Project 3 Directory]
+<a href="https://github.com/salmanshaikh18/MileStone-2-Assignment/tree/main/Project_3_ToDoApp">Project 3: ToDoApp</a>
 
