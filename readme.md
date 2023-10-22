@@ -20,6 +20,9 @@ Description: A Blog application called "PWSkills Blog" using HTML, CSS, and Java
 
 Description: A simple Movies search web app using HTML, CSS, JavsScript only. A Movie Search Application that allows userts to search for any movie using an input box Upon receiving the user's input, the application should fetch movie data from the OMDB API for the specific query and display the relevant movie details.
 
+# Home Page 👇
+<img src="https://github.com/salmanshaikh18/MileStone-2-Assignment/blob/main/Project_2_MovieSearchApp/assets/Screenshot%202023-10-17%20223106.png" />
+
 <a href="https://github.com/salmanshaikh18/MileStone-2-Assignment/tree/main/Project_2_MovieSearchApp">Project 2: MovieSearch</a>
 
 ## Project 3: ToDo App

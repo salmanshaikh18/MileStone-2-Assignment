@@ -32,5 +32,4 @@ Description: A movie search application that allows users to search for any movi
 
 <img src="https://github.com/salmanshaikh18/MileStone-2-Assignment/blob/main/Project_2_MovieSearchApp/assets/Screenshot%202023-10-17%20223106.png" />
 
-Project 2 Directory Link 👉 <a href="https://github.com/salmanshaikh18/MileStone-2-Assignment/tree/main/Project_2_MovieSearchApp">Project 2 </a>
 
