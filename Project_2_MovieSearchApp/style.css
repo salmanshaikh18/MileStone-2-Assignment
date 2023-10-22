@@ -51,6 +51,18 @@ header nav input {
     cursor: pointer
 } 
 
+#searchBtn {
+    margin-left: 5px;
+    cursor: pointer;
+    padding: 8px 13px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    font-size: 18px;
+    background-color: salmon;
+    color: #fff;
+}
+
 #watchNowBtn:hover {
     text-decoration: underline;
     box-shadow: 0 0 5px #fff;
@@ -67,22 +79,27 @@ main {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    gap: 5px;
+    flex-wrap: wrap;
 }
 
 .box {
-    height: 70vh;
-    width: 20vw;
+    margin-top: 22px;
+    min-height: 70vh;
+    width: 25vw;
     background-color: rgb(133, 133, 245);
     border-radius: 10px;
     box-shadow: 0 0 5px #fff;
     padding: 20px;
+    overflow: hidden;
 }
 
 .imgBox {
-    height: 70%;
+    height: 60%;
     width: 100%;
     overflow: hidden;
     border-radius: 10px;
+    cursor: pointer;
 }
 
 #movieImg {
