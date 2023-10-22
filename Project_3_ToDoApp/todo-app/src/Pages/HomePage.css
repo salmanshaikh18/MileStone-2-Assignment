@@ -44,7 +44,7 @@ header {
 }
 
 #box {
-    height: 50vh;
+    min-height: 50vh;
     width: 25vw;
     background-color: #333;
     color: #fff;
